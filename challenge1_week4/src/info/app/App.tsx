@@ -1,4 +1,5 @@
 import { Buttons } from '../../buton/button';
+import { Main } from '../../gentelman/gentelman';
 import { Header } from '../info';
 
 export function App() {
@@ -6,6 +7,7 @@ export function App() {
     <>
       <Header></Header>
       <Buttons></Buttons>
+      <Main></Main>
     </>
   );
 }
